@@ -1,40 +1,32 @@
 #include "main.h"
+/**
+	* main - print _putchar
+	* is written by Tosin
+	* Return: 0
+*/
 
-        /**
+int main(void)
+{
 
-         * main - print _putchar
+_putchar('_');
 
-         * is written by mbah
+_putchar('p');
 
-         * Return: 0
+_putchar('u');
 
-         */
+_putchar('t');
 
+_putchar('c');
 
+_putchar('h');
 
-        int main(void)
+_putchar('a');
 
-        {
+_putchar('r');
 
-        _putchar('_');
+_putchar('\n');
 
-        _putchar('p');
+return (0);
 
-        _putchar('u');
-
-        _putchar('t');
-
-        _putchar('c');
-
-        _putchar('h');
-
-        _putchar('a');
-
-        _putchar('r');
-
-        _putchar('\n');
-
-        return (0);
-
-        }
+}
 
