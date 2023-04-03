@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * print_listint - A function that displays or outputs every item in a given list.
+ * print_listint - function that displays every item in a given list.
  *
- * @h: a reference to the initial node
+ * @a: a reference to the initial node
  *
  * Return: number of nodes
  */
@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *a)
 {
 	size_t node_count = 1;
 
-	/* return 0 as no of nodes when h is null*/
+	/* return 0 as no of nodes when a is null*/
 	if (a == NULL)
 		return (0);
 
