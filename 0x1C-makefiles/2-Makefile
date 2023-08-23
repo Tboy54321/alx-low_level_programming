@@ -5,9 +5,9 @@ NAME = school
 
 all: ${OBJ}
 
-school: $(SRC)
-	$(CC) -o $(NAME) $(SRC)
+school: ${SRC}
+	${CC} -o ${NAME} ${SRC}
 
 clean:
-	rm -f $(NAME)
+	rm -f ${NAME}
 
