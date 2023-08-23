@@ -1,0 +1,11 @@
+CC = gcc
+SCC = school.c
+
+all: school
+
+school: main.c $(SCC)
+	$(CC) -o school main.c $(SCC)
+
+clean:
+	rm -f school
+
