@@ -1,10 +1,10 @@
 CC = gcc
-SCC = school.c
+SCC = $(wildcard *.c)
 
 all: school
 
 school: main.c $(SCC)
-	$(CC) -o school main.c $(SCC)
+	$(CC) -o school $(SCC)
 
 clean:
 	rm -f school
