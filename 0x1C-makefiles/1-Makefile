@@ -3,7 +3,7 @@ SRC = $(wildcard *.c)
 
 all: school
 
-school: main.c $(SRC)
+school: $(SRC)
 	$(CC) -o school $(SRC)
 
 clean:
